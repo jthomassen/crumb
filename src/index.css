@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,114 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+.hello-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 700px;
 }
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 4rem;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gif-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+}
+
+.img1 {
+  height: 90%;
+}
+
+.img2 {
+  height: 90%;
+}
+
+.img2 {
+  height: 90%;
+}
+
+.nav-link1 {
+  text-decoration: none;
+  color: rgb(65, 64, 64);
+  font-weight: 200;
+  font-size: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wordle-link-container {
+  display: flex;
+  flex: 0 0 100%; 
+  height: 700px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.wordle-link {
+  font-size: 4rem;
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtext-wordle {
+  font-weight: 800;
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.nav-link2 {
+  
+}
+
+.meeting-container {
+  display: flex;
+  width: 100%;
+  height: 700px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 500px;
+}
+
+.meeting-details {
+  font-size: 30px;
+  text-align: center;
+  word-wrap: break-word;
+  margin-bottom: 90px;
+}
+
+p {
+  margin: 0;
+}
+
+.meeting-details-heading {
+  margin-top: 130px;
+  margin-bottom: 50px;
+}
+
+.detail1 {
+  background: linear-gradient(to right, #ef5350, #f48fb1, #7e57c2, #2196f3, #26c6da, #43a047, #eeff41, #f9a825, #ff5722);
+}
+
+.text-detail1 {
+  word-wrap: break-word;
+}
+
